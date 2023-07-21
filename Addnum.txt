@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+public class Addnum
+{
+ public static void main(String []args)
+{
+ Scanner s = new Scanner(System.in);
+int k,l,res;
+ System.out.println("enter a num: " );
+ k= s.nextInt();
+ System.out.println("enter another num: ");
+ l=s.nextInt();
+res=k+l;
+System.out.println("Add is="+res);
+}
+}
+
